@@ -1,6 +1,7 @@
 # file-opener
 Searches specific directories for a file with a matching filename and opens it with the default application for the selected file type
 ### How to use it
+To use this you need to have the `xdg-open` command installed.  
 The easiest method would be to set up an alias inside your `.bashrc` file like so  
 `alias opener='crystal run --release "DIRECTORY/WITH/YOUR/FILE/find.cr" --'`  
 and then search by writing `opener \find.cr` or `opener -l \find.cr`
